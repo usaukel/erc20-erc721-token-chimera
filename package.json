@@ -1,0 +1,44 @@
+{
+  "name": "erc20-erc721-token-chimera",
+  "version": "0.0.1",
+  "description": "Smartcontract example of combining erc20 and erc721",
+  "main": "main.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "scripts/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlockChainCompany/erc20-erc721-token-chimera.git"
+  },
+  "keywords": [
+    "token",
+    "erc20",
+    "erc721"
+  ],
+  "author": "oneUp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlockChainCompany/erc20-erc721-token-chimera/issues"
+  },
+  "homepage": "https://github.com/BlockChainCompany/erc20-erc721-token-chimera#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "ganache-cli": "^6.1.0",
+    "mocha": "^5.1.1",
+    "truffle": "^4.1.7"
+  },
+  "dependencies": {
+    "zeppelin-solidity": "1.8.0"
+  }
+}
